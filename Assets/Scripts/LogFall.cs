@@ -15,7 +15,7 @@ public class LogFall : MonoBehaviour
         transform.position += new Vector3(0, -.9f, 0) * Time.deltaTime;
 
         // Checks the lower bound and sends log back to upper bound
-        if (transform.position.y < -5.75)
-            transform.position = new Vector3(0, 1.75f, 0);
+        if (transform.position.y < -1)
+            transform.position = new Vector3(transform.position.x, 15f, transform.position.z);
     }
 }
