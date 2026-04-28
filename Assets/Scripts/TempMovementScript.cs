@@ -6,10 +6,15 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private float speed;
 
+    [SerializeField] public AudioSource Jumpsfx;
+
     // Update is called once per frame
     void Update()
     {
         HandleUserInput();
+
+        if (Input.GetKeyDown(KeyCode.W))
+            Jumpsfx.Play();
     }
 
     void HandleUserInput()

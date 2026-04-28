@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorOpen : MonoBehaviour
 {
@@ -30,9 +33,13 @@ public class DoorOpen : MonoBehaviour
             {
                 doorParticle.Play();
                 doorOpen = true;
-                //add sound effect here
-                //And timer into scene switch
+                Invoke("sceneSwitch", 4);
             }
         }
+    }
+
+    private void sceneSwitch()
+    {
+        SceneManager.LoadScene("CreditsScene");
     }
 }
