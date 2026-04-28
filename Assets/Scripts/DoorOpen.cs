@@ -33,7 +33,7 @@ public class DoorOpen : MonoBehaviour
             {
                 doorParticle.Play();
                 doorOpen = true;
-                Invoke("sceneSwitch", 4);
+                Invoke("sceneSwitch", 3.75f);
             }
         }
     }
