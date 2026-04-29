@@ -7,6 +7,6 @@ public class CreditsToMenu : MonoBehaviour
     public void LoadMenuScene() 
     {
         
-        SceneManager.LoadScene("TitleScene");
+        SceneManager.LoadScene("IntroScene");
     }
 }
