@@ -5,12 +5,6 @@ TextureImporter:
   - first:
       213: -2059823583270753353
     second: sparkle_0
-  - first:
-      213: -5886241038748846175
-    second: sparkle_1
-  - first:
-      213: 6502619149759270755
-    second: sparkle_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,10 +103,10 @@ TextureImporter:
       name: sparkle_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 4
-        width: 305
-        height: 309
+        x: 26
+        y: 26
+        width: 1548
+        height: 1549
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,50 +117,6 @@ TextureImporter:
       bones: []
       spriteID: 7bbac2b4d590a63e0800000000000000
       internalID: -2059823583270753353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sparkle_1
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 312
-        width: 6
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a77c0f36fedf4ea0800000000000000
-      internalID: -5886241038748846175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sparkle_2
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 169
-        width: 33
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36fcd031aa1fd3a50800000000000000
-      internalID: 6502619149759270755
       vertices: []
       indices: 
       edges: []
@@ -186,8 +136,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       sparkle_0: -2059823583270753353
-      sparkle_1: -5886241038748846175
-      sparkle_2: 6502619149759270755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

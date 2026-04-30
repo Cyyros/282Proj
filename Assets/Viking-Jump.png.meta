@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: 18852e1c0c1cad54f86d9fa709bac6d3
+guid: 33d1cec848a98f94597487d2c97192bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8152810528005947752
-    second: Viking-Run_0
+      213: -1784547596601392313
+    second: Viking-Jump_0
   - first:
-      213: 5706678990533573024
-    second: Viking-Run_1
+      213: 4211220673716236418
+    second: Viking-Jump_1
   - first:
-      213: 4253476701852769049
-    second: Viking-Run_2
+      213: -8041181479940567743
+    second: Viking-Jump_2
   - first:
-      213: 5121782423061224133
-    second: Viking-Run_3
+      213: -1133372666176453872
+    second: Viking-Jump_3
   - first:
-      213: -7856343926732910744
-    second: Viking-Run_4
-  - first:
-      213: 3418191806326429746
-    second: Viking-Run_5
-  - first:
-      213: 8228229376676811245
-    second: Viking-Run_6
-  - first:
-      213: 4992020792553238018
-    second: Viking-Run_7
+      213: 2988371499850436002
+    second: Viking-Jump_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,17 +108,96 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Viking-Run_0
+      name: Viking-Jump_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 18
+        x: 41
+        y: 1526
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7430cc37a630c37e0800000000000000
+      internalID: -1784547596601392313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Jump_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1444
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28033a704e2417a30800000000000000
+      internalID: 4211220673716236418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Jump_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1445
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d41b94c0cf76090800000000000000
+      internalID: -8041181479940567743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Jump_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1443
         width: 35
-        height: 41
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89ef32d25066bde80800000000000000
-      internalID: -8152810528005947752
+      spriteID: 0134a62a0937540f0800000000000000
+      internalID: -1133372666176453872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Run_1
+      name: Viking-Jump_4
       rect:
         serializedVersion: 2
-        x: 132
-        y: 16
-        width: 34
-        height: 42
+        x: 41
+        y: 1357
+        width: 35
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,140 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a930fd7e42323f40800000000000000
-      internalID: 5706678990533573024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Run_2
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 16
-        width: 30
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91b95524682670b30800000000000000
-      internalID: 4253476701852769049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Run_3
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 16
-        width: 26
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ca57673af9341740800000000000000
-      internalID: 5121782423061224133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Run_4
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 18
-        width: 30
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86f89c5c2d8a8f290800000000000000
-      internalID: -7856343926732910744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Run_5
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 16
-        width: 29
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 238dc36665bdf6f20800000000000000
-      internalID: 3418191806326429746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Run_6
-      rect:
-        serializedVersion: 2
-        x: 710
-        y: 16
-        width: 30
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de15147e50b803270800000000000000
-      internalID: 8228229376676811245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Run_7
-      rect:
-        serializedVersion: 2
-        x: 822
-        y: 16
-        width: 34
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20eef734678374540800000000000000
-      internalID: 4992020792553238018
+      spriteID: 2ad8c79cb04d87920800000000000000
+      internalID: 2988371499850436002
       vertices: []
       indices: 
       edges: []
@@ -300,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d3e2aa5d4a880ee45b8663b1e3224e3a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Viking-Run_0: -8152810528005947752
-      Viking-Run_1: 5706678990533573024
-      Viking-Run_2: 4253476701852769049
-      Viking-Run_3: 5121782423061224133
-      Viking-Run_4: -7856343926732910744
-      Viking-Run_5: 3418191806326429746
-      Viking-Run_6: 8228229376676811245
-      Viking-Run_7: 4992020792553238018
+      Viking-Jump_0: -1784547596601392313
+      Viking-Jump_1: 4211220673716236418
+      Viking-Jump_2: -8041181479940567743
+      Viking-Jump_3: -1133372666176453872
+      Viking-Jump_4: 2988371499850436002
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

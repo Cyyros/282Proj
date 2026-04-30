@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class changeStateScript : MonoBehaviour
+public class ChangeStateScript : MonoBehaviour
 {
     private Animator myAnimator;
     void Start()
